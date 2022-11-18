@@ -6,7 +6,8 @@ int fun(string napis)
 {
     int sum=0;
     cout<<sizeof(napis)<<"  "<<sizeof(char);
-    for(size_t i = 0; i < napis.length; i++)
+    int length = napis.length();
+    for(size_t i = 0; i < length; i++)
     {
         cout<<" "<<i<<endl;
         if (0<napis[i]-48 && napis[i]-48 <10)
