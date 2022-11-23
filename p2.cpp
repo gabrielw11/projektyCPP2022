@@ -57,7 +57,6 @@ Autokar::Autokar(const Autokar & wzor)
 {
     miejsce_docelowe = wzor.miejsce_docelowe;
     vmax = wzor.vmax;
-    Pasazer * tab= tab;
     
 }
 
@@ -66,7 +65,7 @@ void Autokar::wypisz()
 {
     for(int i=0; i<3/*Pasazer::glicznik()*/; i++)
     {
-        cout<<tab[i]->imie
+        cout<<tab[i]->imie;
     }    
 }
 
