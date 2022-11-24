@@ -50,7 +50,7 @@ class Autokar
     int vmax;
     static const int liczba_miejsc=10;
     Pasazer* tab[liczba_miejsc];
-    int licznik;
+    int licz;
 
     public:
 
@@ -61,8 +61,8 @@ class Autokar
 
 Autokar::Autokar(Pasazer p)
 {
-    tab[licznik]=&p;
-    licznik++;
+    tab[licz]=&p;
+    licz++;
 }
 
 Autokar::Autokar(const Autokar & wzor)
