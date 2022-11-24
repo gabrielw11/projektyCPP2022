@@ -89,9 +89,7 @@ int main()
     Pasazer pas2("Tadek", "Wegrzyn", "2000");
     Pasazer pas3(pas2);
     Autokar aut(pas1);
-    Autokar aut(pas2);
-    Autokar aut(pas3);
-    aut.wypisz;
+    aut.wypisz();
 
 
     return 0;
