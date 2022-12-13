@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     // Użyj funkcji IntelliSense, aby uzyskać informacje o możliwych atrybutach.
     // Najedź kursorem, aby wyświetlić opisy istniejących atrybutów.
     // Aby uzyskać więcej informacji, odwiedź stronę: https://go.microsoft.com/fwlink/?linkid=830387
@@ -15,5 +16,32 @@
             "environment": [],
             "console": "externalTerminal"
         }
+=======
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "(gdb) Dołącz",
+        "type": "cppdbg",
+        "request": "attach",
+        "program": "wprowadź nazwę programu, na przykład ${workspaceFolder}/a.exe",,
+        "MIMode": "gdb",
+        "miDebuggerPath": "/path/to/gdb",
+        "setupCommands": [
+            {
+                "description": "Włącz formatowanie kodu dla gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            },
+            {
+                "description":  "Ustaw wariant dezasemblacji na Intel",
+                "text": "-gdb-set disassembly-flavor intel",
+                "ignoreFailures": true
+            }
+        ]
+    }
+>>>>>>> 4a45ec596ab8f8c7ba3ac3b2f0cfe55452cfb84e
     ]
 }
